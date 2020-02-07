@@ -1,3 +1,4 @@
 libraryenv/
 __pycache__/
 .vscode/
+*.pyc
