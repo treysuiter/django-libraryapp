@@ -11,8 +11,7 @@
     <ol>
     {% for library in all_libraries %}
         <li>
-            {{library.title}}
-            located at {{library.address}}
+            <a href="{% url 'libraryapp:library' library.id %}"> {{ library.title }} </a>
         </li>
     {% endfor %}
     </ol>
